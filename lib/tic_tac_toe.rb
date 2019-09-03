@@ -126,6 +126,6 @@ class TicTacToe
            puts "Congratulations O!"
          end
        end
-     end
+
 
 end
