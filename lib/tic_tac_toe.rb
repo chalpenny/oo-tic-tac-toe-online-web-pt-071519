@@ -105,8 +105,6 @@ class TicTacToe
       if won? !=false && winner == "X"
           puts "Congratulations, X!"
       elsif puts "Congratulations, O!"
-
-        end
       end
     end
   end
