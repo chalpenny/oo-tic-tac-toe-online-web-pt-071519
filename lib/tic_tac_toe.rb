@@ -71,7 +71,7 @@ class TicTacToe
     end
 
     def full?
-       @board.include?(" ")? false : true
+       @board.include?(" ") ? false : true
      end
 
      def draw?
@@ -105,7 +105,9 @@ class TicTacToe
       won?
       if won? !=false && winner == "X"
           puts "Congratulations, X!"
-      elsif puts "Congratulations, O!"
+      elsif won? !=false && winner == "O"
+          puts "Congratulations, O!"
+        else puts "Cat's game!"
       end
     end
   end
