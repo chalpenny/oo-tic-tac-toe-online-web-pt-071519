@@ -110,7 +110,6 @@ class TicTacToe
       if draw? == true
         puts "Cat's Game!"
       end
-      over? = true
       end
     end
   end
