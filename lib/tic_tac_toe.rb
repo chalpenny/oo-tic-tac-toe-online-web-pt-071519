@@ -99,6 +99,7 @@ class TicTacToe
 
   def play
     turn
+<<<<<<< HEAD
     over?
     if false
       turn
@@ -110,6 +111,17 @@ class TicTacToe
     elsif
       puts "Cat's Game!"
   end
+=======
+    if won? && winner == "X"
+      puts "Congratulations, X!"
+    elsif won? && winner == "O"
+      puts "Congratulations, O!"
+    elsif draw?
+      puts "Cat's Game!"
+    else
+    play
+    end
+>>>>>>> bd1cc0fba2a7e4f6c6ac9943197720e86ba1032e
   end
 
 
