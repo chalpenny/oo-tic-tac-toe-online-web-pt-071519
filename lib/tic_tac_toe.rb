@@ -102,6 +102,7 @@ class TicTacToe
   def play
     until over? == true
       turn
+      won?
       if won? !=false && winner == "X"
           puts "Congratulations, X!"
       elsif puts "Congratulations, O!"
