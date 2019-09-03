@@ -98,9 +98,7 @@ class TicTacToe
   end
 
   def play
-    turn
-<<<<<<< HEAD
-    over?
+    turn over?
     if false
       turn
     elsif true
@@ -111,7 +109,6 @@ class TicTacToe
     elsif
       puts "Cat's Game!"
   end
-=======
     if won? && winner == "X"
       puts "Congratulations, X!"
     elsif won? && winner == "O"
@@ -121,8 +118,6 @@ class TicTacToe
     else
     play
     end
->>>>>>> bd1cc0fba2a7e4f6c6ac9943197720e86ba1032e
   end
-
 
 end
