@@ -110,8 +110,11 @@ class TicTacToe
       if draw? == true
         puts "Cat's game!"
       end
+      end
     end
   end
+
+end
 
   # def play
   #   while over? == false
@@ -139,6 +142,3 @@ class TicTacToe
   #      end
   #    end
   #  end
-
-
-end
