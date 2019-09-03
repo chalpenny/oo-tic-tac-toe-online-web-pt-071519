@@ -108,7 +108,7 @@ class TicTacToe
       else won? !=false && winner == "O"
           puts "Congratulations, O!"
       if draw? == true
-        puts "Cat's game!"
+        puts "Cat's Game!"
       end
       end
     end
