@@ -105,9 +105,10 @@ class TicTacToe
   #     won?
   #     if won? !=false && winner == "X"
   #         puts "Congratulations, X!"
-  #     elsif won? !=false && winner == "O"
+  #     else won? !=false && winner == "O"
   #         puts "Congratulations, O!"
-  #       else puts "Cat's game!"
+  #     if draw? == true
+        #puts "Cat's game!"
   #     end
   #   end
   # end
